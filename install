@@ -1,0 +1,4 @@
+#!/usr/bin/env zsh
+
+brew install rg fd tree-sitter wget neovim
+
