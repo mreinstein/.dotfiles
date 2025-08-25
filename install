@@ -1,4 +1,4 @@
 #!/usr/bin/env zsh
 
-brew install rg fd tree-sitter wget neovim
+brew install ripgrep fd tree-sitter wget neovim
 
