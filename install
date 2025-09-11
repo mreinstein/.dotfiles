@@ -1,5 +1,5 @@
 #!/usr/bin/env zsh
 
-brew install ripgrep fd tree-sitter wget neovim
+brew install ripgrep fd tree-sitter wget neovim powerlevel10k luarocks
 
 npm install -g neovim @biomejs/biome typescript-language-server
