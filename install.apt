@@ -1,0 +1,14 @@
+#!/usr/bin/env zsh
+
+sudo add-apt-repository ppa:keyd-team/ppa
+
+sudo apt update
+
+sudo apt install keyd ripgrep wget neovim luarocks fd-find wl-clipboard
+
+npm install -g neovim @biomejs/biome typescript-language-server
+
+sudo cp ./etc/keyd/default.conf /etc/keyd/
+
+sudo systemctl enable --now keyd
+
