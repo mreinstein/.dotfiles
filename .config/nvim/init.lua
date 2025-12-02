@@ -3,7 +3,8 @@ vim.g.maplocalleader = "\\"
 
 vim.g.have_nerd_font = true
 
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" })
+--vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 vim.o.termguicolors = true
 
